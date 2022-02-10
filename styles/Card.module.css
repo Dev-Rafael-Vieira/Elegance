@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 .cardcontainer{
     width: 300px;
@@ -16,7 +14,7 @@
    flex-wrap: wrap;
    justify-content: flex-start;
    color: #212529;
-   padding-top: 90px;
+   padding-top: 120px;
 }
 
 
@@ -51,12 +49,9 @@
 .cardprioridadetotal {
     height: 500px;
     width: 100%;
-    outline-color: #510063;
-    outline-style: solid;
-    outline-width: thin;
     text-align: center;
     border-radius: 11px;
-    background: linear-gradient(145deg, #ffffff, #d726ff);
+    background: linear-gradient(290deg, #ffffff, #de4cff);
     box-shadow:  5px 5px 16px #a7a7a6,
              -5px -5px 16px #ffffff;
 
@@ -84,7 +79,12 @@
 .imagem{
     width: 200px;
     height: 250px;
+}
 
+.imagem:hover {
+    outline-color: #fc79f2;
+    outline-style: solid;
+    outline-width: thin;
 }
 
 
@@ -242,6 +242,17 @@
 }
 
 @media (max-width: 1240px) {
+
+.container{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   color: #212529;
+    }
+
+}
+
+@media (min-width: 1300px) {
 
 .container{
     display: flex;

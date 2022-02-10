@@ -1,5 +1,4 @@
 import styles from '../styles/Card.module.css'
-import { useState } from 'react'; 
 
 
 export default function Card(props) {
@@ -21,7 +20,7 @@ export default function Card(props) {
                 <h2 className={styles.referencia}>Referência <span className={styles.ref}>#{ofs.referencia}</span></h2>
                   <img src={ofs.img} className={styles.imagem}/>
                   <p><b>O.F. </b>#{ofs.of}</p>
-                  <p><b>{ofs.impressora}</b></p>
+                  <p><b>{ofs.setor}</b></p>
                   <div className={
                     ofs.prioridade_num == 1 ? styles.prioridade1 
                     : ofs.prioridade_num == 2 ? styles.prioridade2

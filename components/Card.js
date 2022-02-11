@@ -16,26 +16,40 @@ export default function Card(props) {
                 : ofs.prioridade_num == 3 ? styles.cardurgente 
                 : styles.card
               }>
-
+              <div className={styles.reteminfo}>
                 <h2 className={styles.referencia}>Referência <span className={styles.ref}>#{ofs.referencia}</span></h2>
-                  <img src={ofs.img} className={styles.imagem}/>
-                  <p><b>O.F. </b>#{ofs.of}</p>
-                  <p><b>{ofs.setor}</b></p>
-                  <div className={
-                    ofs.prioridade_num == 1 ? styles.prioridade1 
-                    : ofs.prioridade_num == 2 ? styles.prioridade2
-                    : ofs.prioridade_num == 3 ? styles.prioridade3
-                    : styles.prioridade4
+                <p className={styles.info}>
+                  <p className={styles.infocontent}>
+                    Impressora: 
+                    <p className={styles.ref}>{ofs.impressora}</p>
+                    Descrição: 
+                    <p className={styles.ref}>{ofs.descricao}</p>
+                    Cor | Estampa: 
+                    <p className={styles.ref}>{ofs.cor}</p>
+                    Quantidade: {ofs.qtd}
+                  </p>
+                </p>
+              </div> 
+                  <img id="imagem" src={ofs.img} className={styles.imagem}/>
+                  
+                
+                <p><b>O.F. </b>#{ofs.of}</p>
+                <p><b>{ofs.setor}</b></p>
+                <div className={
+                  ofs.prioridade_num == 1 ? styles.prioridade1 
+                  : ofs.prioridade_num == 2 ? styles.prioridade2
+                  : ofs.prioridade_num == 3 ? styles.prioridade3
+                  : styles.prioridade4
                   }>
-                    <span className={styles.descricao}>{
-                      ofs.prioridade_num == 1 ? "Baixa Prioridade" 
+                  <span className={styles.descricao}>{
+                    ofs.prioridade_num == 1 ? "Baixa Prioridade" 
                     : ofs.prioridade_num == 2 ? "Prioridade Normal"
                     : ofs.prioridade_num == 3 ? "Prioridade Urgente"
                     : "PRIORIDADE *TOTAL*"
                     }</span>
-                  </div>
-                  <p>{ofs.status}...</p>
-                  <a href="#abrirModal" value={ofs.of} className={styles.acessar} >Acessar</a>
+                </div>
+                <p>{ofs.status}...</p>
+                <a href="#abrirModal" value={ofs.of} className={styles.acessar} >Acessar</a>
               </div>
             </div>
             ))}

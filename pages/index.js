@@ -14,6 +14,9 @@ import Modal from '../components/Modal';
     prioridade_num: "3",
     setor: "Impressão",
     status: "Imprimindo",
+    cor: "Marmorizado",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"56",
 
     },
     {
@@ -25,6 +28,9 @@ import Modal from '../components/Modal';
     prioridade_num: "2",
     setor: "Impressão",
     status: "Imprimindo",
+    cor: "Azul Animale",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"45",
 
     },
     {
@@ -36,6 +42,9 @@ import Modal from '../components/Modal';
     prioridade_num: "1",
     setor: "PCP",
     status: "Aguardando",
+    cor: "Happy Flowers",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"90",
 
     },
     {
@@ -47,6 +56,9 @@ import Modal from '../components/Modal';
     prioridade_num: "4",
     setor: "Talhação",
     status: "Enfestando",
+    cor: "Marmorizado",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"87",
 
     },
     {
@@ -58,6 +70,9 @@ import Modal from '../components/Modal';
     prioridade_num: "2",
     setor: "Conferência",
     status: "Conferindo Partes",
+    cor: "Leopardo Print",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"65",
 
     },
     {
@@ -69,6 +84,9 @@ import Modal from '../components/Modal';
     prioridade_num: "3",
     setor: "Revisão",
     status: "Revisando Peças",
+    cor: "Marmorizado",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"23",
 
     },
     {
@@ -80,6 +98,9 @@ import Modal from '../components/Modal';
     prioridade_num: "2",
     setor: "Sublimação",
     status: "Transferindo",
+    cor: "Azul Animale",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"98",
 
     },
     {
@@ -91,6 +112,9 @@ import Modal from '../components/Modal';
     prioridade_num: "1",
     setor: "Impressão",
     status: "Aguardando",
+    cor: "Happy Flowers",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"44",
 
     },
     {
@@ -102,6 +126,9 @@ import Modal from '../components/Modal';
     prioridade_num: "4",
     setor: "Sublimação",
     status: "Aguardando",
+    cor: "Marmorizado",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"34",
 
     },
     {
@@ -113,6 +140,9 @@ import Modal from '../components/Modal';
     prioridade_num: "2",
     setor: "Aumoxarifado",
     status: "Separando Aviamentos",
+    cor: "Leopard Print",
+    descricao: "camisa estampada com pentilho de ilhós e manga bufante",
+    qtd:"105",
 
     },
 

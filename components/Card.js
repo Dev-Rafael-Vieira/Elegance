@@ -1,7 +1,11 @@
-import styles from '../styles/Card.module.css'
+import styles from '../styles/Card.module.css';
+import Modal from '../components/Modal';
+import { useState } from 'react';
 
 
 export default function Card(props) {
+  const [ofdata, setOfdata] = useState([]);
+
 
   
   return (
@@ -20,10 +24,11 @@ export default function Card(props) {
                 <h2 className={styles.referencia}>Referência <span className={styles.ref}>#{ofs.referencia}</span></h2>
                 <p className={styles.info}>
                   <p className={styles.infocontent}>
-                    Impressora: 
-                    <p className={styles.ref}>{ofs.impressora}</p>
+                    
                     Descrição: 
                     <p className={styles.ref}>{ofs.descricao}</p>
+                    Impressora: 
+                    <p className={styles.ref}>{ofs.impressora}</p>
                     Cor | Estampa: 
                     <p className={styles.ref}>{ofs.cor}</p>
                     Quantidade: {ofs.qtd}
@@ -42,14 +47,16 @@ export default function Card(props) {
                   : styles.prioridade4
                   }>
                   <span className={styles.descricao}>{
-                    ofs.prioridade_num == 1 ? "Baixa Prioridade" 
+                    ofs.prioridade_num == 1 ? "Prioridade *Baixa*" 
                     : ofs.prioridade_num == 2 ? "Prioridade Normal"
                     : ofs.prioridade_num == 3 ? "Prioridade Urgente"
                     : "PRIORIDADE *TOTAL*"
                     }</span>
                 </div>
                 <p>{ofs.status}...</p>
-                <a href="#abrirModal" value={ofs.of} className={styles.acessar} >Acessar</a>
+                <Modal ofs={ofdata}/>
+                
+                <a href="#editar_of" onClick={() => setOfdata(ofs)} value={ofs.of} className={styles.acessar} >Acessar</a>
               </div>
             </div>
             ))}

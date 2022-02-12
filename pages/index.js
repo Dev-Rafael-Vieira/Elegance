@@ -1,8 +1,6 @@
 import Head from 'next/head';
-import Layout from '../components/Layout'
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 import Card from '../components/Card';
-import Modal from '../components/Modal';
     var data = [
 
     {
@@ -155,9 +153,10 @@ export default function Home() {
     <>
 
         <Layout>
+            
             <Card ofs={data}/>
-            <Modal/>
         </Layout>
+    
     </>
   )
 }

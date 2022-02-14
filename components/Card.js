@@ -24,13 +24,12 @@ export default function Card(props) {
                 <h2 className={styles.referencia}>Referência <span className={styles.ref}>#{ofs.referencia}</span></h2>
                 <p className={styles.info}>
                   <p className={styles.infocontent}>
-                    
-                    Descrição: 
-                    <p className={styles.ref}>{ofs.descricao}</p>
                     Impressora: 
                     <p className={styles.ref}>{ofs.impressora}</p>
                     Cor | Estampa: 
                     <p className={styles.ref}>{ofs.cor}</p>
+                    Tamanhos: 
+                    <p className={styles.ref}>{ofs.tamanhos}</p>
                     Quantidade: {ofs.qtd}
                   </p>
                 </p>

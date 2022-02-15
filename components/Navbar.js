@@ -5,7 +5,7 @@ export default function Navbar(){
 
 		<div className={styles.container}>
 			<div className={styles.logocontainer}>
-				<img alt="Eleganceallcurves" src="/images/png/logo.png" className={styles.logo}/>
+				<a href="/home"><img alt="Eleganceallcurves" src="/images/png/logo.png" className={styles.logo}/></a>
 			</div>
 		</div>
 	)

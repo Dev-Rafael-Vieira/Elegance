@@ -10,5 +10,49 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.not-found{
+    text-align: center;
+    padding-top: 50px;
+    
+}
 
+.not-found h1 {
+    color: #22272a;
+    text-align: left;
+    padding-left: 30%;
+    font-size: 52px;
+}
 
+.container404 {
+    background-color: #bababa;
+    height: 350px;
+}
+
+.not-found a {
+    text-decoration: none;
+    color: #22272a;
+}
+
+.not-found p {
+    text-decoration: none;
+    color: #22272a;
+    font-size: 24px;
+}
+
+#imagem404{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 710px) {
+
+    .not-found{
+        padding-bottom: 150px;
+        
+    }
+
+    .not-found h1 {
+        padding-left: 10%;
+        
+    }
+}

@@ -10,7 +10,7 @@ export default function Modal(props){
                 
                 <div className={styles.content}>
                     <div className={styles.cardcontent}>
-                        <a href="#fechar" title="Fechar" className={styles.fechar}>&#x2716;</a>
+                        <a href="#fechar" title="Fechar" className={styles.fechar}>x</a>
 
                         <div className={styles.imagem}>
                             <img alt={props.ofs.referencia} src={props.ofs.img} className={styles.imagem}/>

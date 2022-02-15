@@ -70,6 +70,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.refinfo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+}
 
 .referencia{
     cursor: pointer;
@@ -85,6 +89,8 @@
 
 .infocontent{
     
+    font-size: 12px;
+
 }
 
 .info{

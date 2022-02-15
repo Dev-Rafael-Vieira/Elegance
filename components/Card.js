@@ -25,11 +25,11 @@ export default function Card(props) {
                 <p className={styles.info}>
                   <p className={styles.infocontent}>
                     Impressora: 
-                    <p className={styles.ref}>{ofs.impressora}</p>
+                    <p className={styles.refinfo}>{ofs.impressora}</p>
                     Cor | Estampa: 
-                    <p className={styles.ref}>{ofs.cor}</p>
+                    <p className={styles.refinfo}>{ofs.cor}</p>
                     Tamanhos: 
-                    <p className={styles.ref}>{ofs.tamanhos}</p>
+                    <p className={styles.refinfo}>{ofs.tamanhos}</p>
                     Quantidade: {ofs.qtd}
                   </p>
                 </p>
